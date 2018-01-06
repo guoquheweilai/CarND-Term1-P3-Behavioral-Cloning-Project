@@ -112,18 +112,18 @@ Finally, I was changing the Simulator settings to see if there is any improvemen
 
 The final model architecture (example_code_training_ec2_gpu.py lines 104-115) consisted of a convolution neural network with the following layers and layer sizes.
 
-*1 layer: Lambda, input size: 160*320*3
-*2 layer: Cropping
-*3 layer: Convolution2D, 24 classes with 5x5 kernel, activation = relu
-*4 layer: Convolution2D, 36 classes with 5x5 kernel, activation = relu
-*5 layer: Convolution2D, 48 classes with 5x5 kernel, activation = relu
-*6 layer: Convolution2D, 64 classes with 3x3 kernel, activation = relu
-*7 layer: Convolution2D, 64 classes with 3x3 kernel, activation = relu
-*8 layer: Flatten
-*9 layer: Full-connected layer, 100
-*10 layer: Full-connected layer, 50
-*11 layer: Full-connected layer, 10
-*12 layer: Full-connected layer, 1
+* 1 layer: Lambda, input size: 160*320*3
+* 2 layer: Cropping
+* 3 layer: Convolution2D, 24 classes with 5x5 kernel, activation = relu
+* 4 layer: Convolution2D, 36 classes with 5x5 kernel, activation = relu
+* 5 layer: Convolution2D, 48 classes with 5x5 kernel, activation = relu
+* 6 layer: Convolution2D, 64 classes with 3x3 kernel, activation = relu
+* 7 layer: Convolution2D, 64 classes with 3x3 kernel, activation = relu
+* 8 layer: Flatten
+* 9 layer: Full-connected layer, 100
+* 10 layer: Full-connected layer, 50
+* 11 layer: Full-connected layer, 10
+* 12 layer: Full-connected layer, 1
 
 #### 3. Creation of the Training Set & Training Process
 
