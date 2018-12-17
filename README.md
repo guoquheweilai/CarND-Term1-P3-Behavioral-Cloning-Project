@@ -128,3 +128,8 @@ The final model architecture (example_code_training_ec2_gpu.py lines 104-115) co
 #### 3. Creation of the Training Set & Training Process
 
 The given sample data set was used in my model training.
+
+## Videos
+Video recordings for success cases.  
+Success to navigate the full track using behavior cloning.  
+![Success_Run_Part1](./videos/run1.gif)  
